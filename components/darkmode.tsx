@@ -156,7 +156,7 @@ export function Component() {
                 Learning
               </h2>
               <p className="mx-auto max-w-[600px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Learn the basics of cybersecurity with our online tutorials.
+                Learn the basics of cybersecurity with burp suite.
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
