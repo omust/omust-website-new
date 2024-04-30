@@ -24,7 +24,6 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -34,7 +33,6 @@ import { Link1Icon } from "@radix-ui/react-icons";
 
 export function HomePage() {
   return (
-    <>
     <div className="flex flex-col min-h-screen">
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm dark:bg-gray-950/80">
         <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
@@ -313,9 +311,9 @@ export function HomePage() {
                 rows={5}
               />
             </div>
-            <Button className="w-full" type="submit" variant=null>
+            <Link href="#" className="w-full">
               Submit
-            </Button>
+            </Link>
           </form>
         </div>
       </section>
@@ -356,7 +354,6 @@ export function HomePage() {
         </div>
       </footer>
     </div>
-      </>
   );
 }
 
