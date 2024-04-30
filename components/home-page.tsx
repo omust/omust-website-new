@@ -34,52 +34,52 @@ import { Link1Icon } from "@radix-ui/react-icons";
 export function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
-     <header className="fixed top-0 left-0 right-0 z-50 px-4 lg:px-6 py-4 lg:py-10 flex flex-col gap-2 bg-white text-black">
-  <div className="flex items-center gap-2">
-    <Link href="/" className="flex items-center gap-2 text-black">
-      <ShieldCheckIcon className="h-6 w-6" />
-      <span className="font-semibold">OMUST</span>
-    </Link>
+     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm dark:bg-gray-950/80">
+  <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
+    <div className="flex items-center gap-2 text-lg font-semibold">
+      <ShieldIcon className="h-6 w-6" />
+      <span>OMUST</span>
+    </div>
+    <nav className="ml-auto flex gap-4 sm:gap-6">
+      <a
+        className="text-sm font-medium hover:underline underline-offset-4"
+        href="#about"
+      >
+        About
+      </a>
+      <a
+        className="text-sm font-medium hover:underline underline-offset-4"
+        href="#features"
+      >
+        Activities
+      </a>
+      <Link
+        className="text-sm font-medium hover:underline underline-offset-4"
+        href="#"
+      >
+        Sponsor
+      </Link>
+      <Link
+        className="text-sm font-medium hover:underline underline-offset-4"
+        href="#"
+      >
+        History
+      </Link>
+      <Link
+        className="text-sm font-medium hover:underline underline-offset-4"
+        href="darkmode"
+      >
+        Contact
+      </Link>
+    </nav>
   </div>
-  <nav className="ml-auto flex gap-4 sm:gap-6">
-    <Link
-      className="text-sm font-medium hover:underline underline-offset-4 text-gray-600"
-      href="#"
-    >
-      About
-    </Link>
-    <Link
-      className="text-sm font-medium hover:underline underline-offset-4 text-gray-600"
-      href="#"
-    >
-      Activities
-    </Link>
-    <Link
-      className="text-sm font-medium hover:underline underline-offset-4 text-gray-600"
-      href="#"
-    >
-      Sponsor
-    </Link>
-    <Link
-      className="text-sm font-medium hover:underline underline-offset-4 text-gray-600"
-      href="#"
-    >
-      History
-    </Link>
-    <Link
-      className="text-sm font-medium hover:underline underline-offset-4 text-gray-600"
-      href="#"
-    >
-      Contact
-    </Link>
-  </nav>
 </header>
+
 
       <section className="relative flex flex-col items-center justify-center bg-gradient-to-r from-[#0072C6] to-[#00A0D2] py-24 md:py-32 lg:py-40">
         <div className="container mx-auto max-w-6xl px-4 text-center text-white md:px-6">
           <div className="animate-tracking-in-contract">
-            <div></div>
-            <div></div>
+            
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
               Welcome to OMU Security Club
             </h1>
