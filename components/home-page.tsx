@@ -214,6 +214,7 @@ export function HomePage() {
               <p className="mt-1 text-gray-500 dark:text-gray-400">CEO</p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
                 団体長です。情報工学科２年です。直近ではpicoCTFに参加しました。
+                </p>
             </Link>
             <Link
               href="#"
