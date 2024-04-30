@@ -173,8 +173,8 @@ export function HomePage() {
               <CloudIcon className="h-12 w-12 text-[#00A0D2]" />
               <h3 className="mt-4 text-xl font-bold">omust Server</h3>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                With university funds, the circle's server will be built and put
-                to good use.
+                {` With university funds, the circle's server will be built and put
+                to good use.`}
               </p>
             </div>
             <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
@@ -189,8 +189,8 @@ export function HomePage() {
               <ShieldCheckIcon className="h-12 w-12 text-[#00A0D2]" />
               <h3 className="mt-4 text-xl font-bold">Bug Bounties</h3>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Find bugs and vulnerabilities and tell the company about them.
-                Maybe we'll even get an allowance!
+                {` Find bugs and vulnerabilities and tell the company about them.
+                Maybe we'll even get an allowance!`}
               </p>
             </div>
           </div>
