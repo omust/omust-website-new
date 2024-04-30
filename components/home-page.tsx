@@ -35,45 +35,49 @@ export function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm dark:bg-gray-950/80">
-  <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
-    <div className="flex items-center gap-2 text-lg font-semibold">
-      <ShieldIcon className="h-6 w-6" />
-      <span>OMUST</span>
-    </div>
-    <nav className="ml-auto flex gap-4 sm:gap-6">
-      <a
-        className="text-sm font-medium hover:underline underline-offset-4"
-        href="#about"
-      >
-        About
-      </a>
-      <a
-        className="text-sm font-medium hover:underline underline-offset-4"
-        href="#features"
-      >
-        Activities
-      </a>
-      <Link
-        className="text-sm font-medium hover:underline underline-offset-4"
-        href="#"
-      >
-        Sponsor
-      </Link>
-      <Link
-        className="text-sm font-medium hover:underline underline-offset-4"
-        href="#"
-      >
-        History
-      </Link>
-      <Link
-        className="text-sm font-medium hover:underline underline-offset-4"
-        href="darkmode"
-      >
-        Contact
-      </Link>
-    </nav>
-  </div>
-</header>
+        <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
+          <Link
+            href="/"
+            className="flex items-center gap-2 text-lg font-semibold"
+          >
+            <ShieldIcon className="h-6 w-6" />
+            <span>OMUST</span>
+          </Link>
+          <nav className="ml-auto flex gap-4 sm:gap-6">
+            <a
+              className="text-sm font-medium hover:underline underline-offset-4"
+              href="#about"
+            >
+              About
+            </a>
+            <a
+              className="text-sm font-medium hover:underline underline-offset-4"
+              href="#features"
+            >
+              Activities
+            </a>
+            <Link
+              className="text-sm font-medium hover:underline underline-offset-4"
+              href="#"
+            >
+              Sponsor
+            </Link>
+            <Link
+              className="text-sm font-medium hover:underline underline-offset-4"
+              href="#"
+            >
+              History
+            </Link>
+            <Link
+              
+              className="text-sm font-medium hover:underline underline-offset-4"
+              href="darkmode"
+            >
+              Contact
+            </Link>
+          </nav>
+        </div>
+      </header>
 
 
       <section className="relative flex flex-col items-center justify-center bg-gradient-to-r from-[#0072C6] to-[#00A0D2] py-24 md:py-32 lg:py-40">
