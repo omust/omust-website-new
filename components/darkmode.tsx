@@ -291,7 +291,7 @@ function ChevronsRightIcon(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
-function ShieldCheckIcon(props) {
+function ShieldCheckIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
