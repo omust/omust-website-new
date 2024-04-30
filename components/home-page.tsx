@@ -34,7 +34,7 @@ import { Link1Icon } from "@radix-ui/react-icons";
 
 export function HomePage() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <home-page className="flex flex-col min-h-screen">
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm dark:bg-gray-950/80">
         <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
           <Link
@@ -354,7 +354,7 @@ export function HomePage() {
           </div>
         </div>
       </footer>
-    </div>
+    </home-page>
   );
 }
 
