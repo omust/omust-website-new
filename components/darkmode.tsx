@@ -142,7 +142,7 @@ export function Component() {
                   objectFit="contain"
                 />
                 <div className="flex flex-col gap-1">
-                  <h3 className="font-semibold">第一回omust総会</h3>
+                  <h3 className="font-semibold">第一回omust会議</h3>
                   <p className="text-xs text-gray-400">June 5, 2024</p>
                 </div>
               </div>
