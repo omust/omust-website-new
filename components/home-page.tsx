@@ -107,11 +107,10 @@ export function HomePage() {
               <p className="mt-4 text-gray-500 dark:text-gray-400">
                 omustは今年に結成されたばかりのサークルです。(公認処理中)
                 主に情報セキュリティ全般に興味ある大阪公立大学の学生を歓迎します。
-               
                 pcの知識がない方でも、興味が湧いたら覗いてみてください
               </p>
               <p className="mt-4 text-gray-500 dark:text-gray-400">
-                ※ゲーム創作や音楽制作、アプリ開発がしたい方には、本団体以外にも、randomやアプリnavi
+                ゲーム創作や音楽制作、アプリ開発がしたい方には、本団体以外にも、randomやアプリnavi
                 などがおすすめです。
               </p>
             </div>
