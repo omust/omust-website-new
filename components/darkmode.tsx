@@ -102,6 +102,7 @@ export function Component() {
             <div className="mx-auto w-full max-w-3xl grid gap-4 [&>div]:grid sm:grid-cols-2 md:grid-cols-3">
               <div className="flex flex-col gap-1">
                 <Image
+                  alt="cmc19"
                   className="aspect-video overflow-hidden rounded-xl object-cover object-center"
                   src="/cmc19.png"
                   width={600}
@@ -118,6 +119,7 @@ export function Component() {
               </div>
               <div className="flex flex-col gap-1">
                 <Image
+                  alt="DEFCON-CTF"
                   className="aspect-video overflow-hidden rounded-xl object-cover object-center"
                   src="/DEFCON-CTF.png"
                   width={600}
@@ -132,6 +134,7 @@ export function Component() {
               </div>
               <div className="flex flex-col gap-1">
                 <Image
+                  alt="kaigi"
                   className="aspect-video overflow-hidden rounded-xl object-cover object-center"
                   src="/kaigi.png"
                   width={600}
@@ -180,6 +183,7 @@ export function Component() {
             <div className="mx-auto w-full max-w-3xl grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               <div className="flex flex-col gap-2">
                 <Image
+                  alt="tratiger"
                   className="mx-auto rounded-full overflow-hidden aspect-square object-cover object-center border border-gray-800"
                   src="/tratiger.png"
                   width={80}
@@ -193,6 +197,7 @@ export function Component() {
               </div>
               <div className="flex flex-col gap-2">
                 <Image
+                  alt="Akira"
                   className="mx-auto rounded-full overflow-hidden aspect-square object-cover object-center border border-gray-800"
                   src="/Akira.png"
                   width={80}
@@ -206,6 +211,7 @@ export function Component() {
               </div>
               <div className="flex flex-col gap-2">
                 <Image
+                  alt="4equest"
                   className="mx-auto rounded-full overflow-hidden aspect-square object-cover object-center border border-gray-800"
                   src="/4equest.png"
                   width={80}
@@ -219,6 +225,7 @@ export function Component() {
               </div>
               <div className="flex flex-col gap-2">
                 <Image
+                  alt="occidentalis"
                   className="mx-auto rounded-full overflow-hidden aspect-square object-cover object-center border border-gray-800"
                   src="/occidentalis.png"
                   width={80}
