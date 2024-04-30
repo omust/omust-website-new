@@ -68,7 +68,7 @@ export function Component() {
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 flex flex-col items-center justify-center">
           <div className="container flex flex-col items-center justify-center px-4 space-y-4 md:px-6">
             <div className="text-center">
-              <div class="animate-tracking-in-contract">
+              <div className="animate-tracking-in-contract">
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl text-center">
                   Welcome to OMU Security Club
                 </h1>
@@ -159,7 +159,7 @@ export function Component() {
             <div className="mx-auto w-full max-w-sm space-y-2">
               <Link
                 className="flex items-center justify-center rounded-md border border-gray-200 border-gray-800 bg-gray-950 px-4 py-2 text-sm font-medium shadow-sm transition-colors hover:bg-gray-800 hover:text-gray-50 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-300 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800"
-                href="#"
+                href="https://portswigger.net/web-security"
               >
                 View Tutorials
                 <ChevronsRightIcon className="w-4 h-4 ml-2" />
@@ -240,19 +240,19 @@ export function Component() {
             <nav className="sm:ml-auto flex gap-4 sm:gap-6">
               <Link
                 className="text-xs hover:underline underline-offset-4 text-gray-400"
-                href="#"
+                href="https://github.com/omust"
               >
-                Facebook
+                GItHub
               </Link>
               <Link
                 className="text-xs hover:underline underline-offset-4 text-gray-400"
-                href="#"
+                href="https://twitter.com/omust2024"
               >
                 Twitter
               </Link>
               <Link
                 className="text-xs hover:underline underline-offset-4 text-gray-400"
-                href="#"
+                href="https://www.instagram.com/omust2024"
               >
                 Instagram
               </Link>

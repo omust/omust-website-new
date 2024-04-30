@@ -142,11 +142,12 @@ export function HomePage() {
             <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
               <ShieldIcon className="h-12 w-12 text-[#0072C6]" />
               <h3 className="mt-4 text-xl font-bold">
-                Vulnerability Assessment
+                Finding Vulnerabilities
               </h3>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Identify and mitigate vulnerabilities in your systems to
-                strengthen your security posture.
+                Participate in the CTF and practice finding vulnerabilities in a
+                competitive format; the CTF is divided into six genres: Web,
+                Crypto, Forensics, Reversing, Pwn, and Misc.
               </p>
             </div>
             <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
@@ -159,34 +160,35 @@ export function HomePage() {
             </div>
             <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
               <BriefcaseIcon className="h-12 w-12 text-[#0072C6]" />
-              <h3 className="mt-4 text-xl font-bold">Compliance Consulting</h3>
+              <h3 className="mt-4 text-xl font-bold">Security workshops</h3>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Ensure your organization meets industry regulations and
-                standards to avoid costly penalties.
+                We hold security study sessions and teach each other. We also
+                participate in various study group events such as security camps
+                as a group.
               </p>
             </div>
             <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
               <CloudIcon className="h-12 w-12 text-[#00A0D2]" />
-              <h3 className="mt-4 text-xl font-bold">Cloud Security</h3>
+              <h3 className="mt-4 text-xl font-bold">omust Server</h3>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Protect your cloud-based assets and data with our specialized
-                cloud security solutions.
+                With university funds, the circle's server will be built and put
+                to good use.
               </p>
             </div>
             <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
               <FingerprintIcon className="h-12 w-12 text-[#0072C6]" />
-              <h3 className="mt-4 text-xl font-bold">Identity Management</h3>
+              <h3 className="mt-4 text-xl font-bold">OSINT</h3>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Implement robust identity and access management to control who
-                can access your systems and data.
+                Gathering information is an essential part of learning security.
+                Utilize paid OSINT tools to gather the latest information.
               </p>
             </div>
             <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
               <ShieldCheckIcon className="h-12 w-12 text-[#00A0D2]" />
-              <h3 className="mt-4 text-xl font-bold">Incident Response</h3>
+              <h3 className="mt-4 text-xl font-bold">Bug Bounties</h3>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Quickly respond to and mitigate the impact of security incidents
-                to minimize disruption.
+                Find bugs and vulnerabilities and tell the company about them.
+                Maybe we'll even get an allowance!
               </p>
             </div>
           </div>
@@ -201,7 +203,10 @@ export function HomePage() {
             Our club consists of six students now
           </p>
           <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
+            <Link
+              href="https://github.com/tratiger"
+              className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950"
+            >
               <Image
                 src="/tratiger.png"
                 width={80}
@@ -211,11 +216,13 @@ export function HomePage() {
               <h3 className="mt-4 text-xl font-bold">tratiger</h3>
               <p className="mt-1 text-gray-500 dark:text-gray-400">CEO</p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                tratiger is a seasoned cybersecurity expert with over 1 years of
-                experience in the industry.
+                団体長です。omustを立ち上げました。情報工学科２年です。直近ではpicoCTFに参加しました。BurpSuiteでウェブセキュリティとリバースエンジニアリングを学んでいます。今後は、低レイアーの知識と暗号技術についても勉強したいです。Flipper買いたい。
               </p>
-            </div>
-            <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
+            </Link>
+            <Link
+              href="#"
+              className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950"
+            >
               <Image
                 src="/Akira.png"
                 width={80}
@@ -225,11 +232,13 @@ export function HomePage() {
               <h3 className="mt-4 text-xl font-bold">Akira</h3>
               <p className="mt-1 text-gray-500 dark:text-gray-400">CTO</p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Akira is a renowned expert in cloud security and has a proven
-                track record of delivering innovative solutions.
+                副団長です。情報工学科２年です。今はtryhackmeでセキュリティの勉強をしているらしいです。C言語とJava使えます。まらしぃが好きらしく、ピアノ上手いです。
               </p>
-            </div>
-            <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
+            </Link>
+            <Link
+              href="https://github.com/4equest"
+              className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950"
+            >
               <Image
                 src="/4equest.png"
                 width={80}
@@ -241,11 +250,13 @@ export function HomePage() {
                 Head of Incident Response
               </p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                4equest is an expert in incident response and has led numerous
-                successful security operations.
+                他大学の助っ人です。omustのなかで一番セキュリティに詳しく、技術力も高いです。高校生からバクハンティングなどしています。CTFはあまりしないらしいですが、直近のpicoではreverseを完答していて、forensicsもかなり解いていました。一瞬世界７位だったとか。
               </p>
-            </div>
-            <div className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950">
+            </Link>
+            <Link
+              href="https://github.com/okisidentarisu"
+              className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950"
+            >
               <Image
                 src="/occidentalis.png"
                 width={80}
@@ -257,10 +268,10 @@ export function HomePage() {
                 Head of Incident Response
               </p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                occidentalis is an expert in incident response and has led
-                numerous successful security operations.
+                他大学の助っ人です。omustの中でも技術力高いです。CTFではwebやForensicsを解くことが多いようですが、ジャンルは気にしていないそうです。インフラ関係に強く、高校生から事業に参加していました。よくFlipperで
+                <s>毒電波を撒いてる</s>遊んでいるのを見かけます。
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
@@ -312,17 +323,23 @@ export function HomePage() {
               </span>
             </div>
             <nav className="flex flex-wrap justify-center gap-4 text-sm font-medium">
-              <Link className="hover:text-gray-300" href="#">
-                About
+              <Link
+                className="text-xs hover:underline underline-offset-4 text-gray-400"
+                href="https://github.com/omust"
+              >
+                GitHub
               </Link>
-              <Link className="hover:text-gray-300" href="#">
-                Features
+              <Link
+                className="text-xs hover:underline underline-offset-4 text-gray-400"
+                href="https://twitter.com/omust2024"
+              >
+                Twitter
               </Link>
-              <Link className="hover:text-gray-300" href="#">
-                Team
-              </Link>
-              <Link className="hover:text-gray-300" href="#">
-                Contact
+              <Link
+                className="text-xs hover:underline underline-offset-4 text-gray-400"
+                href="https://www.instagram.com/omust2024"
+              >
+                Instagram
               </Link>
             </nav>
             <p className="text-sm text-gray-400">
