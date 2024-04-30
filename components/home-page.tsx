@@ -311,7 +311,10 @@ export function HomePage() {
                 rows={5}
               />
             </div>
-            <Link href="#" className="w-full">
+            <Link
+            href="#"
+            className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-black shadow transition-colors hover:bg-white/90 hover:text-white hover:bg-black focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-900 dark:text-white dark:hover:bg-gray-900/90 dark:focus-visible:ring-gray-300"
+          >
               Submit
             </Link>
           </form>
