@@ -81,7 +81,7 @@ export function HomePage() {
       </header>
       <section className="relative flex flex-col items-center justify-center bg-gradient-to-r from-[#0072C6] to-[#00A0D2] py-24 md:py-32 lg:py-40">
         <div className="container mx-auto max-w-6xl px-4 text-center text-white md:px-6">
-          <div class="animate-tracking-in-contract">
+          <div className="animate-tracking-in-contract">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
               Welcome to OMU Security Club
             </h1>
