@@ -107,12 +107,12 @@ export function HomePage() {
               <p className="mt-4 text-gray-500 dark:text-gray-400">
                 omustは今年に結成されたばかりのサークルです。(公認処理中)
                 主に情報セキュリティ全般に興味ある大阪公立大学の学生を歓迎します。
-                *ハード、ソフトは問いません。低レイヤー、高レイヤーどちらでも。
-                pcの知識がない方でも、ハッキング、ホワイトハッカーなどの単語に興味が湧いたら覗いてみてください
+               
+                pcの知識がない方でも、興味が湧いたら覗いてみてください
               </p>
               <p className="mt-4 text-gray-500 dark:text-gray-400">
-                ※ゲーム創作や音楽制作、アプリ開発がしたい方には、本団体は向いておりません。randomやアプリnavi
-                などの他の公認サークルへの参加を推奨します
+                ※ゲーム創作や音楽制作、アプリ開発がしたい方には、本団体以外にも、randomやアプリnavi
+                などがおすすめです。
               </p>
             </div>
             <div className="order-1 md:order-2">
@@ -176,7 +176,7 @@ export function HomePage() {
               <FingerprintIcon className="h-12 w-12 text-[#0072C6]" />
               <h3 className="mt-4 text-xl font-bold">OSINT</h3>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                Gathering information is an essential part of learning security.
+                
                 Utilize paid OSINT tools to gather the latest information.
               </p>
             </div>
@@ -214,8 +214,7 @@ export function HomePage() {
               <h3 className="mt-4 text-xl font-bold">tratiger</h3>
               <p className="mt-1 text-gray-500 dark:text-gray-400">CEO</p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                団体長です。omustを立ち上げました。情報工学科２年です。直近ではpicoCTFに参加しました。BurpSuiteでウェブセキュリティとリバースエンジニアリングを学んでいます。今後は、低レイアーの知識と暗号技術についても勉強したいです。Flipper買いたい。
-              </p>
+                団体長です。情報工学科２年です。直近ではpicoCTFに参加しました。
             </Link>
             <Link
               href="#"
@@ -231,7 +230,7 @@ export function HomePage() {
               <h3 className="mt-4 text-xl font-bold">Akira</h3>
               <p className="mt-1 text-gray-500 dark:text-gray-400">CTO</p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                副団長です。情報工学科２年です。今はtryhackmeでセキュリティの勉強をしているらしいです。まらしぃが好きらしく、ピアノ上手いです。
+                副長です。情報工学科２年です。今はtryhackmeでセキュリティの勉強をしているらしいです。
               </p>
             </Link>
             <Link
@@ -247,10 +246,10 @@ export function HomePage() {
               />
               <h3 className="mt-4 text-xl font-bold">4equest</h3>
               <p className="mt-1 text-gray-500 dark:text-gray-400">
-                Head of Incident Response
+               helper
               </p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                他大学の助っ人です。omustのなかで一番セキュリティに詳しく、技術力も高いです。高校生からバクハンティングなどしています。CTFはあまりしないらしいですが、直近のpicoではreverseを完答していて、forensicsもかなり解いていました。
+                他大学の助っ人です。CTFはあまりしないらしいです。
               </p>
             </Link>
             <Link
@@ -266,11 +265,10 @@ export function HomePage() {
               />
               <h3 className="mt-4 text-xl font-bold">occidentalis</h3>
               <p className="mt-1 text-gray-500 dark:text-gray-400">
-                Head of Incident Response
+                Helper
               </p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                他大学の助っ人です。omustの中でも技術力高いです。CTFではwebやForensicsを解くことが多いようですが、ジャンルは気にしていないそうです。インフラ関係に強く、高校生から事業に参加していました。よくFlipperで
-                <s>毒電波を撒いてる</s>遊んでいるのを見かけます。
+                他大学の助っ人です。CTFではwebやForensicsを解くことが多いようです。
               </p>
             </Link>
           </div>
@@ -288,13 +286,13 @@ export function HomePage() {
           <form className="mx-auto mt-12 max-w-md space-y-4">
             <div>
               <Label htmlFor="name">Name</Label>
-              <Input id="name" placeholder="Kali Linux" required type="text" />
+              <Input id="name" placeholder="omust" required type="text" />
             </div>
             <div>
               <Label htmlFor="email">Email</Label>
               <Input
                 id="email"
-                placeholder="kali@example.com"
+                placeholder="omust@example.com"
                 required
                 type="email"
               />
@@ -303,7 +301,7 @@ export function HomePage() {
               <Label htmlFor="message">Message</Label>
               <Textarea
                 id="message"
-                placeholder="情報工学科3年のニックネーム:毒電波撒い太郎です。OMUSTに入部したいのですが、手続きお願いします。"
+                placeholder="情報工学科3年のニックネーム:omust太郎です。OMUSTに入部したいのですが、手続きお願いします。"
                 required
                 rows={5}
               />
