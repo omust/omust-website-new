@@ -312,7 +312,7 @@ export function HomePage() {
                 rows={5}
               />
             </div>
-            <Button className="w-full" type="submit" variant="primary">
+            <Button className="w-full" type="submit" variant="null">
               Submit
             </Button>
           </form>
