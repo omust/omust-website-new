@@ -231,7 +231,7 @@ export function HomePage() {
               <h3 className="mt-4 text-xl font-bold">Akira</h3>
               <p className="mt-1 text-gray-500 dark:text-gray-400">CTO</p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                副団長です。情報工学科２年です。今はtryhackmeでセキュリティの勉強をしているらしいです。C言語とJava使えます。まらしぃが好きらしく、ピアノ上手いです。
+                副団長です。情報工学科２年です。今はtryhackmeでセキュリティの勉強をしているらしいです。まらしぃが好きらしく、ピアノ上手いです。
               </p>
             </Link>
             <Link
@@ -250,7 +250,7 @@ export function HomePage() {
                 Head of Incident Response
               </p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                他大学の助っ人です。omustのなかで一番セキュリティに詳しく、技術力も高いです。高校生からバクハンティングなどしています。CTFはあまりしないらしいですが、直近のpicoではreverseを完答していて、forensicsもかなり解いていました。一瞬世界７位だったとか。
+                他大学の助っ人です。omustのなかで一番セキュリティに詳しく、技術力も高いです。高校生からバクハンティングなどしています。CTFはあまりしないらしいですが、直近のpicoではreverseを完答していて、forensicsもかなり解いていました。
               </p>
             </Link>
             <Link
@@ -329,19 +329,19 @@ export function HomePage() {
             <nav className="flex flex-wrap justify-center gap-4 text-sm font-medium">
               <Link
                 className="text-xs hover:underline underline-offset-4 text-gray-400"
-                href="https:github.com/omust"
+                href="https://github.com/omust"
               >
                 GitHub
               </Link>
               <Link
                 className="text-xs hover:underline underline-offset-4 text-gray-400"
-                href="https:twitter.com/omust2024"
+                href="https://twitter.com/omust2024"
               >
                 Twitter
               </Link>
               <Link
                 className="text-xs hover:underline underline-offset-4 text-gray-400"
-                href="https:www.instagram.com/omust2024"
+                href="https://www.instagram.com/omust2024"
               >
                 Instagram
               </Link>
