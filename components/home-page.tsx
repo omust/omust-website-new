@@ -70,6 +70,7 @@ export function HomePage() {
               History
             </Link>
             <Link
+              
               className="text-sm font-medium hover:underline underline-offset-4"
               href="darkmode"
             >
@@ -120,6 +121,7 @@ export function HomePage() {
             </div>
             <div className="order-1 md:order-2">
               <Image
+                alt="logo"
                 class="animate-fade-in"
                 src="/logo.png"
                 width={500}
@@ -208,6 +210,7 @@ export function HomePage() {
               className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950"
             >
               <Image
+                alt="tratiger"
                 src="/tratiger.png"
                 width={80}
                 height={80}
@@ -224,6 +227,7 @@ export function HomePage() {
               className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950"
             >
               <Image
+                alt="Akira"
                 src="/Akira.png"
                 width={80}
                 height={80}
@@ -240,6 +244,7 @@ export function HomePage() {
               className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950"
             >
               <Image
+                alt="4equest"
                 src="/4equest.png"
                 width={80}
                 height={80}
@@ -258,6 +263,7 @@ export function HomePage() {
               className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950"
             >
               <Image
+                alt="occidentalis"
                 src="/occidentalis.png"
                 width={80}
                 height={80}
