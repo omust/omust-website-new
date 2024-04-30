@@ -359,7 +359,7 @@ export function HomePage() {
   );
 }
 
-function BriefcaseIcon(props) {
+function BriefcaseIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -379,7 +379,7 @@ function BriefcaseIcon(props) {
   );
 }
 
-function CloudIcon(props) {
+function CloudIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -398,7 +398,7 @@ function CloudIcon(props) {
   );
 }
 
-function FingerprintIcon(props) {
+function FingerprintIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -425,7 +425,7 @@ function FingerprintIcon(props) {
   );
 }
 
-function LockIcon(props) {
+function LockIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -445,7 +445,7 @@ function LockIcon(props) {
   );
 }
 
-function ShieldCheckIcon(props) {
+function ShieldCheckIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -465,7 +465,7 @@ function ShieldCheckIcon(props) {
   );
 }
 
-function ShieldIcon(props) {
+function ShieldIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
