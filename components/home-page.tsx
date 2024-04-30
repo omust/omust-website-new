@@ -235,7 +235,7 @@ export function HomePage() {
               </p>
             </Link>
             <Link
-              href="https:github.com/4equest"
+              href="https://github.com/4equest"
               className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950"
             >
               <Image
@@ -254,7 +254,7 @@ export function HomePage() {
               </p>
             </Link>
             <Link
-              href="https:github.com/okisidentarisu"
+              href="https://github.com/okisidentarisu"
               className="rounded-lg bg-white p-6 shadow-md transition-all hover:scale-105 hover:shadow-lg dark:bg-gray-950"
             >
               <Image
