@@ -122,7 +122,6 @@ export function HomePage() {
             <div className="order-1 md:order-2">
               <Image
                 alt="logo"
-                class="animate-fade-in"
                 src="/logo.png"
                 width={500}
                 height={300}
