@@ -271,11 +271,7 @@ export function Component() {
   );
 }
 
-type Props = {
-  ChevronsRightIcon: strings
-}
-
-function ChevronsRightIcon(props: Props) {
+function ChevronsRightIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
