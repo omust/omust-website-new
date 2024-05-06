@@ -211,9 +211,9 @@ export function HomePage() {
                 objectFit="contain"
               />
               <h3 className="mt-4 text-xl font-bold">tratiger</h3>
-              <p className="mt-1 text-gray-500 dark:text-gray-400">CEO</p>
+              <p className="mt-1 text-gray-500 dark:text-gray-400">president</p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                団体長です。情報工学科２年です。直近ではpicoCTFに参加しました。
+                団体長です。情報工学科２年です。直近ではpicoCTFに参加しました。Progateの学生アンバサダーもやってます。BurpSuite攻略中。
                 </p>
             </Link>
             <Link
@@ -228,9 +228,9 @@ export function HomePage() {
                 objectFit="contain"
               />
               <h3 className="mt-4 text-xl font-bold">Akira</h3>
-              <p className="mt-1 text-gray-500 dark:text-gray-400">CTO</p>
+              <p className="mt-1 text-gray-500 dark:text-gray-400">vice president</p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                副長です。情報工学科２年です。今はtryhackmeでセキュリティの勉強をしているらしいです。
+                副長です。情報工学科２年です。今はtryhackmeでセキュリティの勉強をしています。
               </p>
             </Link>
             <Link
@@ -249,7 +249,7 @@ export function HomePage() {
                helper
               </p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                他大学の助っ人です。CTFはあまりしないらしいです。
+                他大学の助っ人です。CTFはあまりしないですが、直近のpicoCTFではreverseとforensics解きました。技術系ブログもたまに書きます。リポジトリのぞいていただけると。
               </p>
             </Link>
             <Link
@@ -268,7 +268,7 @@ export function HomePage() {
                 Helper
               </p>
               <p className="mt-2 text-gray-500 dark:text-gray-400">
-                他大学の助っ人です。CTFではwebやForensicsを解くことが多いようです。
+                他大学の助っ人です。CTFではwebやForensicsを解くことが多いです。中高6年間は映像画像入出力処理(Lua, C#)、今はWeb(Rust, TS)&インフラセキュリティのエンジニアをさせていただいています。
               </p>
             </Link>
           </div>
@@ -286,13 +286,13 @@ export function HomePage() {
           <form className="mx-auto mt-12 max-w-md space-y-4">
             <div>
               <Label htmlFor="name">Name</Label>
-              <Input id="name" placeholder="omust" required type="text" />
+              <Input id="name" placeholder="例：omust" required type="text" />
             </div>
             <div>
               <Label htmlFor="email">Email</Label>
               <Input
                 id="email"
-                placeholder="omust@example.com"
+                placeholder="例：omust@example.com"
                 required
                 type="email"
               />
@@ -301,7 +301,7 @@ export function HomePage() {
               <Label htmlFor="message">Message</Label>
               <Textarea
                 id="message"
-                placeholder="情報工学科3年のニックネーム:omust太郎です。OMUSTに入部したいのですが、手続きお願いします。"
+                placeholder="例：情報工学科３年のニックネーム:omust太郎です。OMUSTに入部したいのですが、手続きお願いします。"
                 required
                 rows={5}
               />
